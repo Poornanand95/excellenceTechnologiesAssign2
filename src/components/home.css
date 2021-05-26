@@ -1,0 +1,79 @@
+.container{
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-image: url(../sandclock.jpg);
+    background-position: center;
+    background-size: contain;
+}
+.wrapper{
+    background-color: rgba(168, 215, 228, 0.4);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.schedule-heading{
+    font-weight: bolder;
+    font-size: 2rem;
+    color:rgb(15, 5, 107);
+    margin-bottom: -.75rem;
+}
+.search-input{
+    
+    margin: .5rem 1rem;
+    padding: .5rem;
+    width: 15rem;
+    border: none;
+    border-radius: .25rem;
+}
+
+.submit-btn{
+    width: 4rem;
+    padding: .5rem .25rem;
+    border-radius: .25rem;
+    border: none;
+    margin: .25rem;
+    transition: 300ms;
+}
+.submit-btn:hover{
+    background-color: rgb(52, 52, 161);
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(240, 240, 245);
+}
+
+
+
+.each-task{
+    padding: .25rem;
+    margin: .25rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(168, 215, 228, 0.7);
+}
+
+
+
+.task-check-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: .25rem;
+}
+
+.motivation{
+    color: darkblue;
+    font-size: .75rem;
+    font-weight: bold;
+}
+
+.check-box:hover{
+ cursor: pointer;
+}
